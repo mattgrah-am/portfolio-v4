@@ -8,7 +8,7 @@ export default function Home() {
         id="about"
       >
         <div className="w-full">
-          <h1>G&#39;day, I&#39;m Matt.</h1>
+          <h1>Hey, I&#39;m Matt.</h1>
           <div className="mb-5 -rotate-1 bg-neutral-950 px-4 py-2 text-base font-semibold uppercase text-neutral-50 shadow-lg md:text-lg">
             Web Developer, career switcher & problem solver.
           </div>
