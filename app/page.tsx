@@ -120,7 +120,7 @@ export default function Home() {
           >
             About ↑
           </a>
-          <div className="mt-5 flex gap-2 transition duration-200 hover:blur-[1px]">
+          <div className="mt-5 flex gap-2">
             <Xdotcom /> <Github /> <Linkedin />
           </div>{" "}
         </div>
