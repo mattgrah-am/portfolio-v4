@@ -1,4 +1,4 @@
-import SocialIcons from "./Socialicons";
+import SocialIcons from "./SocialIcons";
 
 const About = () => (
   <section

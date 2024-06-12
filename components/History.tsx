@@ -1,4 +1,4 @@
-import SocialIcons from "./Socialicons";
+import SocialIcons from "./SocialIcons";
 
 const History = () => (
   <div className="w-full">
