@@ -1,4 +1,4 @@
-// import SocialIcons from "./SocialIcons";
+import SocialIcons from "./SocialIcons";
 
 const About = () => (
   <section
@@ -38,7 +38,7 @@ const About = () => (
       >
         Projects ↓
       </a>
-      {/* <SocialIcons /> */}
+      <SocialIcons />
     </div>
   </section>
 );
