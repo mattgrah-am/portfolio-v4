@@ -1,4 +1,4 @@
-import History from "./History";
+import History from "@/components/History";
 
 const Projects = () => (
   <section
