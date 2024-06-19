@@ -7,7 +7,7 @@ const About = () => (
   >
     <div className="w-full">
       <h1>Hey, I&#39;m Matt.</h1>
-      <div className="mb-5 -rotate-1 bg-neutral-950 px-4 py-2 text-base font-semibold uppercase text-neutral-50 shadow-lg md:text-lg">
+      <div className="mb-5 -rotate-1 bg-neutral-950 px-4 py-2 text-center text-base font-semibold uppercase text-neutral-50 shadow-lg md:text-lg">
         Web Developer, career switcher & problem solver.
       </div>
       <h2 className="font-light">
