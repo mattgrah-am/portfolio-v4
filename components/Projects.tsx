@@ -11,25 +11,25 @@ const projectData: Project[] = [
   {
     title: "Xinx Music Archive",
     description: "A music archive from a past life.",
-    github: "https://github.com/mattgrah-am/xinxmusic",
+    github: "https://github.com/mattgrah-am/xinxmusic/",
     live: "https://xinxmusic.com/",
   },
   {
     title: "Macro Calculator",
     description: "A simple macro calculator.",
-    github: "",
+    github: "https://github.com/mattgrah-am/macro-calculator/",
     live: "https://macros.matg.dev/",
   },
   {
     title: "Guess that tune!",
     description: "A game where you guess the song.",
-    github: "https://github.com/mattgrah-am/guessThatTune",
+    github: "https://github.com/mattgrah-am/guessThatTune/",
     live: "https://guessthattune.com/",
   },
   {
     title: "Tic tac toe",
     description: "A simple tic tac toe game.",
-    github: "https://github.com/mattgrah-am/tictactoe",
+    github: "https://github.com/mattgrah-am/tictactoe/",
     live: "https://tictactoe.matg.dev/",
   },
 ];
