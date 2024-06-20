@@ -36,7 +36,7 @@ const projectData: Project[] = [
 
 const Projects = () => (
   <section
-    className="mx-auto grid h-screen max-w-xl place-items-center px-4 md:px-0"
+    className="mx-auto my-12 grid max-w-xl place-items-center px-4 md:my-0 md:h-screen md:px-0"
     id="projects"
   >
     <div className="w-full">

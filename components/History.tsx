@@ -35,10 +35,10 @@ const historyData: Project[] = [
 ];
 
 const History = () => (
-  <section className="mx-auto mt-10 max-w-xl px-4 md:px-0" id="projects">
+  <section className="mx-auto mt-10 max-w-xl" id="projects">
     <div className="w-full">
       <h2 className="h1">History</h2>
-      <ul>
+      <ul className="mb-5">
         {historyData.map((item, idx) => (
           <li
             className="mb-2 flex justify-between border-b border-neutral-400 pb-2"
@@ -73,9 +73,12 @@ const History = () => (
           </li>
         ))}
       </ul>
-      <button className="mr-6 mt-5 min-w-24 rounded-md bg-neutral-950 px-4 py-1.5 text-xl font-bold text-neutral-50 transition duration-200 hover:blur-[1px] md:text-2xl">
+      <a
+        href="mailto:%69%61%6D%40%6D%61%74%74%67%72%61%68%2E%61%6D?subject=Message from matg.dev website"
+        className="mr-6 mt-5 min-w-24 rounded-md bg-neutral-950 px-4 py-1.5 text-xl font-bold text-neutral-50 transition duration-200 hover:blur-[1px] md:text-2xl"
+      >
         Reach out
-      </button>
+      </a>
       <a
         href="#about"
         className="text-xl font-bold text-neutral-950 transition duration-200 hover:blur-[1px] md:text-2xl"
