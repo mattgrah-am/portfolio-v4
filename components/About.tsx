@@ -38,7 +38,7 @@ const About = () => (
         development.
       </p>
       <a
-        href="mailto:%69%61%6D%40%6D%61%74%74%67%72%61%68%2E%61%6D?subject=Message from matg.dev website"
+        href="ma&#105;l&#116;o&#58;ma&#105;l&#64;%6D&#97;t&#103;&#37;2E%64&#101;&#118;?subject=Message from matg.dev website"
         className="mr-6 mt-5 min-w-24 rounded-md bg-neutral-950 px-4 py-1.5 text-xl font-bold text-neutral-50 transition duration-200 hover:blur-[1px] md:text-2xl"
       >
         Reach out
