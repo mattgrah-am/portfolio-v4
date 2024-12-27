@@ -1,4 +1,5 @@
 import SocialIcons from "./SocialIcons";
+import Contact from "./Contact";
 
 const About = () => (
   <section
@@ -37,18 +38,16 @@ const About = () => (
         and I am continually inspired by the ever-evolving landscape of web
         development.
       </p>
-      <a
-        href="ma&#105;l&#116;o&#58;ma&#105;l&#64;%6D&#97;t&#103;&#37;2E%64&#101;&#118;?subject=Message from matg.dev website"
-        className="mr-6 mt-5 min-w-24 rounded-md bg-neutral-950 px-4 py-1.5 text-xl font-bold text-neutral-50 transition duration-200 hover:blur-[1px] md:text-2xl"
-      >
-        Reach out
-      </a>
-      <a
-        href="#projects"
-        className="text-xl font-bold text-neutral-950 transition duration-200 hover:blur-[1px] md:text-2xl"
-      >
-        Projects ↓
-      </a>
+      <div className="flex items-center gap-4">
+        <Contact />
+        <a
+          href="#projects"
+          className="text-xl font-bold text-neutral-950 transition duration-200 hover:blur-[1px] md:text-2xl"
+        >
+          Projects ↓
+        </a>
+      </div>
+
       <SocialIcons />
     </div>
   </section>
