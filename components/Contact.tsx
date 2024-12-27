@@ -10,6 +10,7 @@ const Contact = () => {
     message: "",
   });
   const [isError, setIsError] = useState(false);
+  const [count, setCount] = useState(0);
 
   const handleOpenModal = () => {
     setIsModalOpen(true);
@@ -33,6 +34,9 @@ const Contact = () => {
       ...prevData,
       [name]: value,
     }));
+    if (name === "message") {
+      setCount(value.length);
+    }
   };
 
   const handleSubmit = async (event: React.FormEvent) => {
@@ -100,14 +104,19 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-sm font-medium uppercase tracking-widest">
-                  Message
-                </label>
+                <div className="flex items-center justify-between">
+                  <label className="block text-sm font-medium uppercase tracking-widest">
+                    Message
+                  </label>
+                  <p className="text-xs text-neutral-500">{count} / 300</p>
+                </div>
+
                 <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   className="mt-1 block w-full rounded-md border border-neutral-400 px-2 py-1.5 shadow-sm focus:border-neutral-500"
+                  maxLength={300}
                   required
                   rows={4}
                 />
