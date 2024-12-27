@@ -20,8 +20,8 @@ export async function POST(request: Request) {
     const { data, error } = await resend.emails.send({
       from: resendEmail,
       to: [resendEmail],
-      subject: "Message from matg.dev",
-      html: `Message from ${name} (${email}):<br><br>${message}`,
+      subject: `Message from ${name} (${email}) from matg.dev`,
+      text: `Message: ${message}`,
     });
 
     if (error) {
