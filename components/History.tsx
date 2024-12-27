@@ -1,4 +1,5 @@
 import SocialIcons from "./SocialIcons";
+import Contact from "./Contact";
 
 interface Project {
   title: string;
@@ -73,18 +74,16 @@ const History = () => (
           </li>
         ))}
       </ul>
-      <a
-        href="mailto:%69%61%6D%40%6D%61%74%74%67%72%61%68%2E%61%6D?subject=Message from matg.dev website"
-        className="mr-6 mt-5 min-w-24 rounded-md bg-neutral-950 px-4 py-1.5 text-xl font-bold text-neutral-50 transition duration-200 hover:blur-[1px] md:text-2xl"
-      >
-        Reach out
-      </a>
-      <a
-        href="#about"
-        className="text-xl font-bold text-neutral-950 transition duration-200 hover:blur-[1px] md:text-2xl"
-      >
-        About ↑
-      </a>
+      <div className="flex items-center gap-4">
+        <Contact />
+
+        <a
+          href="#about"
+          className="text-xl font-bold text-neutral-950 transition duration-200 hover:blur-[1px] md:text-2xl"
+        >
+          About ↑
+        </a>
+      </div>
       <SocialIcons />
     </div>
   </section>
