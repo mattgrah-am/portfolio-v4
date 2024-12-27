@@ -3,6 +3,8 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 const resendEmail = process.env.RESEND_EMAIL_ADDRESS ?? "";
 
+export const runtime = "edge";
+
 export async function POST(request: Request) {
   try {
     const contentType = request.headers.get("Content-Type");

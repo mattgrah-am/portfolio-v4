@@ -24892,7 +24892,7 @@ var require_load_manifest = __commonJS({
         
 
           if (path.endsWith(".next/prerender-manifest.json")) {
-            return {"version":4,"routes":{"/favicon.ico":{"initialHeaders":{"cache-control":"public, max-age=0, must-revalidate","content-type":"image/x-icon","x-next-cache-tags":"_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"},"experimentalBypassFor":[{"type":"header","key":"Next-Action"},{"type":"header","key":"content-type","value":"multipart/form-data;.*"}],"initialRevalidateSeconds":false,"srcRoute":"/favicon.ico","dataRoute":null},"/":{"experimentalBypassFor":[{"type":"header","key":"Next-Action"},{"type":"header","key":"content-type","value":"multipart/form-data;.*"}],"initialRevalidateSeconds":false,"srcRoute":"/","dataRoute":"/index.rsc"}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"85378e8afde9815686db265779b7966a","previewModeSigningKey":"f8757cdddf761fc1170b7f9f29a61f040d9257105cdf67ad0fae7e8ef72e4205","previewModeEncryptionKey":"c792e45c36288906ba6b994e61d1a466fecf28d884130ef70e35517f80ba2d28"}};
+            return {"version":4,"routes":{"/":{"experimentalBypassFor":[{"type":"header","key":"Next-Action"},{"type":"header","key":"content-type","value":"multipart/form-data;.*"}],"initialRevalidateSeconds":false,"srcRoute":"/","dataRoute":"/index.rsc"},"/favicon.ico":{"initialHeaders":{"cache-control":"public, max-age=0, must-revalidate","content-type":"image/x-icon","x-next-cache-tags":"_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"},"experimentalBypassFor":[{"type":"header","key":"Next-Action"},{"type":"header","key":"content-type","value":"multipart/form-data;.*"}],"initialRevalidateSeconds":false,"srcRoute":"/favicon.ico","dataRoute":null}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"ffd4b1d154aa36b4070070cacb1f9b66","previewModeSigningKey":"65970d113c546f1e6e4de335579c2152660643f6908e3f8e4eb43f0d7cf5ff43","previewModeEncryptionKey":"52538a0c63a5df3f8c3bcb538255ee1fa8a1ca4a14e2c09b306f6c6758c774a9"}};
           }
         
 
@@ -24904,26 +24904,26 @@ var require_load_manifest = __commonJS({
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/gxIpZMh7rTgY2KAzOtx2l/_buildManifest.js",
-    "static/gxIpZMh7rTgY2KAzOtx2l/_ssgManifest.js"
+    "static/iAqrCsyawDlRmAmyDMLbk/_buildManifest.js",
+    "static/iAqrCsyawDlRmAmyDMLbk/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-a8e8730335fdd13a.js",
-    "static/chunks/fd9d1056-6184565b3c21c232.js",
-    "static/chunks/23-a65363d5d62554a7.js",
+    "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+    "static/chunks/23-60fece4b50a68a94.js",
     "static/chunks/main-app-75117f74c668e5fd.js"
   ],
   "pages": {
     "/_app": [
       "static/chunks/webpack-a8e8730335fdd13a.js",
       "static/chunks/framework-f66176bb897dc684.js",
-      "static/chunks/main-1db66cb1292e20b5.js",
+      "static/chunks/main-e11ec587a9330b56.js",
       "static/chunks/pages/_app-6a626577ffa902a4.js"
     ],
     "/_error": [
       "static/chunks/webpack-a8e8730335fdd13a.js",
       "static/chunks/framework-f66176bb897dc684.js",
-      "static/chunks/main-1db66cb1292e20b5.js",
+      "static/chunks/main-e11ec587a9330b56.js",
       "static/chunks/pages/_error-1be831200e60c5c0.js"
     ]
   },
@@ -24933,7 +24933,7 @@ var require_load_manifest = __commonJS({
         
 
           if (path.endsWith(".next/app-path-routes-manifest.json")) {
-            return {"/_not-found/page":"/_not-found","/favicon.ico/route":"/favicon.ico","/page":"/"};
+            return {"/_not-found/page":"/_not-found","/favicon.ico/route":"/favicon.ico","/page":"/","/api/send/route":"/api/send"};
           }
         
 
@@ -24942,25 +24942,25 @@ var require_load_manifest = __commonJS({
   "pages": {
     "/_not-found/page": [
       "static/chunks/webpack-a8e8730335fdd13a.js",
-      "static/chunks/fd9d1056-6184565b3c21c232.js",
-      "static/chunks/23-a65363d5d62554a7.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
       "static/chunks/main-app-75117f74c668e5fd.js",
-      "static/chunks/app/_not-found/page-e2780d7ce20c6532.js"
+      "static/chunks/app/_not-found/page-846bc14f8cdb3714.js"
     ],
     "/layout": [
       "static/chunks/webpack-a8e8730335fdd13a.js",
-      "static/chunks/fd9d1056-6184565b3c21c232.js",
-      "static/chunks/23-a65363d5d62554a7.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
       "static/chunks/main-app-75117f74c668e5fd.js",
-      "static/css/fc1b36602ff3d3fb.css",
-      "static/chunks/app/layout-19707dfd7d18b8ac.js"
+      "static/css/cf85449febc99f72.css",
+      "static/chunks/app/layout-10dc04b260bd8050.js"
     ],
     "/page": [
       "static/chunks/webpack-a8e8730335fdd13a.js",
-      "static/chunks/fd9d1056-6184565b3c21c232.js",
-      "static/chunks/23-a65363d5d62554a7.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
       "static/chunks/main-app-75117f74c668e5fd.js",
-      "static/chunks/app/page-ffc06cd4473239c6.js"
+      "static/chunks/app/page-35aefecd059c99bc.js"
     ]
   }
 };
@@ -24968,7 +24968,7 @@ var require_load_manifest = __commonJS({
         
 
           if (path.endsWith(".next/server/server-reference-manifest.json")) {
-            return {"node":{},"edge":{},"encryptionKey":"Ag8hpipBErhAf9fga93YBjr68tbfRbo2qD287+ctYAk="};
+            return {"node":{},"edge":{},"encryptionKey":"2N4or3W3gSk97RNTh26yO0h0oVAzC9olIPB9PhsZdLI="};
           }
         
 
@@ -24986,7 +24986,34 @@ var require_load_manifest = __commonJS({
             return {
   "version": 3,
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/api/send/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/send/route.js"
+      ],
+      "name": "app/api/send/route",
+      "page": "/api/send/route",
+      "matchers": [
+        {
+          "regexp": "^/api/send$",
+          "originalSource": "/api/send"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "environments": {
+        "previewModeId": "ffd4b1d154aa36b4070070cacb1f9b66",
+        "previewModeSigningKey": "65970d113c546f1e6e4de335579c2152660643f6908e3f8e4eb43f0d7cf5ff43",
+        "previewModeEncryptionKey": "52538a0c63a5df3f8c3bcb538255ee1fa8a1ca4a14e2c09b306f6c6758c774a9"
+      }
+    }
+  },
   "sortedMiddleware": []
 };
           }
@@ -25001,7 +25028,8 @@ var require_load_manifest = __commonJS({
             return {
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/api/send/route": "app/api/send/route.js"
 };
           }
         
@@ -25160,7 +25188,7 @@ var require_require = __commonJS({
       const pagePath = getPagePath(page, distDir, void 0, isAppPath);
     
           if (pagePath.endsWith(".next/server/pages/404.html")) {
-            return "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/css/fc1b36602ff3d3fb.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-a8e8730335fdd13a.js\"/><script src=\"/_next/static/chunks/fd9d1056-6184565b3c21c232.js\" async=\"\"></script><script src=\"/_next/static/chunks/23-a65363d5d62554a7.js\" async=\"\"></script><script src=\"/_next/static/chunks/main-app-75117f74c668e5fd.js\" async=\"\"></script><script src=\"/_next/static/chunks/app/layout-19707dfd7d18b8ac.js\" async=\"\"></script><title>404: This page could not be found.</title><title>Matt Graham</title><meta name=\"description\" content=\"Web Developer, career switcher &amp; problem solver.\"/><meta name=\"next-size-adjust\"/><script src=\"/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js\" noModule=\"\"></script></head><body class=\"__className_d65c78\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:49px;margin:0\">This page could not be found.</h2></div></div></div><script src=\"/_next/static/chunks/webpack-a8e8730335fdd13a.js\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,\"1:HL[\\\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n2:HL[\\\"/_next/static/css/fc1b36602ff3d3fb.css\\\",\\\"style\\\"]\\n\"])</script><script>self.__next_f.push([1,\"3:I[5751,[],\\\"\\\"]\\n5:I[9275,[],\\\"\\\"]\\n6:I[1343,[],\\\"\\\"]\\nb:I[1164,[\\\"185\\\",\\\"static/chunks/app/layout-19707dfd7d18b8ac.js\\\"],\\\"Analytics\\\"]\\nd:I[6130,[],\\\"\\\"]\\n7:{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"}\\n8:{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"}\\n9:{\\\"display\\\":\\\"inline-block\\\"}\\na:{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0}\\ne:[]\\n\"])</script><script>self.__next_f.push([1,\"0:[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/fc1b36602ff3d3fb.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"$L3\\\",null,{\\\"buildId\\\":\\\"gxIpZMh7rTgY2KAzOtx2l\\\",\\\"assetPrefix\\\":\\\"\\\",\\\"initialCanonicalUrl\\\":\\\"/_not-found\\\",\\\"initialTree\\\":[\\\"\\\",{\\\"children\\\":[\\\"/_not-found\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],\\\"initialSeedData\\\":[\\\"\\\",{\\\"children\\\":[\\\"/_not-found\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{},[[\\\"$L4\\\",[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":\\\"404\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]]],null],null]},[\\\"$\\\",\\\"$L5\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"segmentPath\\\":[\\\"children\\\",\\\"/_not-found\\\",\\\"children\\\"],\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L6\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"notFoundStyles\\\":\\\"$undefined\\\",\\\"styles\\\":null}],null]},[[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"children\\\":[[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"__className_d65c78\\\",\\\"children\\\":[\\\"$\\\",\\\"$L5\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"segmentPath\\\":[\\\"children\\\"],\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L6\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":\\\"$7\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":\\\"$8\\\",\\\"children\\\":\\\"404\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":\\\"$9\\\",\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":\\\"$a\\\",\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],\\\"notFoundStyles\\\":[],\\\"styles\\\":null}]}],[\\\"$\\\",\\\"$Lb\\\",null,{}]]}],null],null],\\\"couldBeIntercepted\\\":false,\\\"initialHead\\\":[false,\\\"$Lc\\\"],\\\"globalErrorComponent\\\":\\\"$d\\\",\\\"missingSlots\\\":\\\"$We\\\"}]]\\n\"])</script><script>self.__next_f.push([1,\"c:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"title\\\",\\\"2\\\",{\\\"children\\\":\\\"Matt Graham\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"Web Developer, career switcher \\u0026 problem solver.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"name\\\":\\\"next-size-adjust\\\"}]]\\n4:null\\n\"])</script></body></html>";
+            return "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/css/cf85449febc99f72.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-a8e8730335fdd13a.js\"/><script src=\"/_next/static/chunks/fd9d1056-be48aeae6e94b8d1.js\" async=\"\"></script><script src=\"/_next/static/chunks/23-60fece4b50a68a94.js\" async=\"\"></script><script src=\"/_next/static/chunks/main-app-75117f74c668e5fd.js\" async=\"\"></script><title>404: This page could not be found.</title><title>Matt Graham</title><meta name=\"description\" content=\"Web Developer, career switcher &amp; problem solver.\"/><meta name=\"next-size-adjust\"/><script src=\"/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js\" noModule=\"\"></script></head><body class=\"__className_d65c78\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:49px;margin:0\">This page could not be found.</h2></div></div></div><script src=\"/_next/static/chunks/webpack-a8e8730335fdd13a.js\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,\"1:HL[\\\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n2:HL[\\\"/_next/static/css/cf85449febc99f72.css\\\",\\\"style\\\"]\\n\"])</script><script>self.__next_f.push([1,\"3:I[5751,[],\\\"\\\"]\\n5:I[9275,[],\\\"\\\"]\\n6:I[1343,[],\\\"\\\"]\\nc:I[6130,[],\\\"\\\"]\\n7:{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"}\\n8:{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"}\\n9:{\\\"display\\\":\\\"inline-block\\\"}\\na:{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0}\\nd:[]\\n\"])</script><script>self.__next_f.push([1,\"0:[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/cf85449febc99f72.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"$L3\\\",null,{\\\"buildId\\\":\\\"iAqrCsyawDlRmAmyDMLbk\\\",\\\"assetPrefix\\\":\\\"\\\",\\\"initialCanonicalUrl\\\":\\\"/_not-found\\\",\\\"initialTree\\\":[\\\"\\\",{\\\"children\\\":[\\\"/_not-found\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],\\\"initialSeedData\\\":[\\\"\\\",{\\\"children\\\":[\\\"/_not-found\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{},[[\\\"$L4\\\",[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":\\\"404\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]]],null],null]},[\\\"$\\\",\\\"$L5\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"segmentPath\\\":[\\\"children\\\",\\\"/_not-found\\\",\\\"children\\\"],\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L6\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"notFoundStyles\\\":\\\"$undefined\\\",\\\"styles\\\":null}],null]},[[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"__className_d65c78\\\",\\\"children\\\":[\\\"$\\\",\\\"$L5\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"segmentPath\\\":[\\\"children\\\"],\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L6\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":\\\"$7\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":\\\"$8\\\",\\\"children\\\":\\\"404\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":\\\"$9\\\",\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":\\\"$a\\\",\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],\\\"notFoundStyles\\\":[],\\\"styles\\\":null}]}]}],null],null],\\\"couldBeIntercepted\\\":false,\\\"initialHead\\\":[false,\\\"$Lb\\\"],\\\"globalErrorComponent\\\":\\\"$c\\\",\\\"missingSlots\\\":\\\"$Wd\\\"}]]\\n\"])</script><script>self.__next_f.push([1,\"b:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"title\\\",\\\"2\\\",{\\\"children\\\":\\\"Matt Graham\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"Web Developer, career switcher \\u0026 problem solver.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"name\\\":\\\"next-size-adjust\\\"}]]\\n4:null\\n\"])</script></body></html>";
           }
         
     
@@ -25191,6 +25219,11 @@ var require_require = __commonJS({
 
           if (pagePath.endsWith(".next/server/app/page.js")) {
             return require("/Users/mg/webdev/projects/mattgrah.am/portfolio-v4/.worker-next/.next/standalone/.next/server/app/page.js");
+          }
+        
+
+          if (pagePath.endsWith(".next/server/app/api/send/route.js")) {
+            return require("/Users/mg/webdev/projects/mattgrah.am/portfolio-v4/.worker-next/.next/standalone/.next/server/app/api/send/route.js");
           }
         
     throw new Error("Unknown pagePath: " + pagePath);
@@ -33260,7 +33293,7 @@ CacheHandler = (await import('./cache-handler.mjs')).OpenNextCacheHandler;
         return !!(0, _require.getMaybePagePath)(pathname, this.distDir, (_this_nextConfig_i18n = this.nextConfig.i18n) == null ? void 0 : _this_nextConfig_i18n.locales, this.enabledDirectories.app);
       }
       getBuildId() {
-      return "gxIpZMh7rTgY2KAzOtx2l";
+      return "iAqrCsyawDlRmAmyDMLbk";
     
         const buildIdFile = (0, _path.join)(this.distDir, _constants.BUILD_ID_FILE);
         try {
@@ -33642,7 +33675,7 @@ CacheHandler = (await import('./cache-handler.mjs')).OpenNextCacheHandler;
       getMiddlewareManifest() {
         if (this.minimalMode)
           return null;
-        const manifest = {"version":3,"middleware":{},"functions":{},"sortedMiddleware":[]};
+        const manifest = {"version":3,"middleware":{},"functions":{"/api/send/route":{"files":["server/middleware-build-manifest.js","server/middleware-react-loadable-manifest.js","server/next-font-manifest.js","server/interception-route-rewrite-manifest.js","prerender-manifest.js","server/edge-runtime-webpack.js","server/app/api/send/route.js"],"name":"app/api/send/route","page":"/api/send/route","matchers":[{"regexp":"^/api/send$","originalSource":"/api/send"}],"wasm":[],"assets":[],"environments":{"previewModeId":"ffd4b1d154aa36b4070070cacb1f9b66","previewModeSigningKey":"65970d113c546f1e6e4de335579c2152660643f6908e3f8e4eb43f0d7cf5ff43","previewModeEncryptionKey":"52538a0c63a5df3f8c3bcb538255ee1fa8a1ca4a14e2c09b306f6c6758c774a9"}}},"sortedMiddleware":[]};
         return manifest;
       }
       /** Returns the middleware routing item if there is one. */
